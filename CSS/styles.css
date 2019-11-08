@@ -1,5 +1,53 @@
+
+/* ================================= 
+       Base Element Styles
+==================================== */
+* {
+    box-sizing: border-box;
+}
+
+
 body {
-    font-family: 'Open Sans', sans-serif;
+    
+    line-height: 1.6;
+    color: #3a3a3a;
+   }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* ================================= 
+         Base Layout Styles
+==================================== */
+
+               /* Navigation */
+.name {
+    margin: 0;
+}
+
+/* Layout Containers */
+
+.container {
+   padding-left: 1em;
+   padding-right: 1em;
+     font-family: 'Open Sans', sans-serif;
+}
+
+.main-header {
+    background: rgb(245, 241, 241);
+    padding: 1em 0;
+   
+
+}
+
+.footer {
+    padding: 2em 0;
+    background: rgb(245, 241, 241);
+    text-align: center;
 }
 
 
@@ -15,14 +63,20 @@ body {
 
 
 
-
-
-
-
 /* ================================= 
-            Media Queries
+           Media Queries
 ==================================== */
 
 @media (min-width: 320px) {
+    
+    .wrap {
+        min-height: 100vh;
+    }
+    
+    .container {
+        width: 70%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
 
 }
