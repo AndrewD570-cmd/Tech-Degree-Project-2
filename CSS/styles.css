@@ -56,6 +56,12 @@ h3 {
 }
 
 
+.main-nav a {
+    padding: 10px 15px;
+    display: block;
+}
+
+
 
 .container {
    padding-left: 1em;
@@ -63,6 +69,7 @@ h3 {
 }
 
 .main-header {
+    text-align: center;
     background: rgb(245, 241, 241);
     padding-top: 1.5em;
     padding-bottom: 1.5em;
@@ -96,11 +103,15 @@ h3 {
         max-width: 1150px;
         margin: 0 auto;
     }
-
+ 
     .name,
-    .main-nav,
     .main-nav li {
-        display: inline;
+        display: inline-block;
+        
+    }
+
+    .name {
+        width: 240px;
     }
 
 }
