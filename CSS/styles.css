@@ -55,13 +55,20 @@ h3 {
 	color: #093a58;
 }
 
-
+.name a,
 .main-nav a {
-    padding: 10px 15px;
-    display: block;
+	padding: 10px 15px;
+	text-align: center;
+	display: block;
 }
 
 
+.main-nav a {
+    font-size: .95em;
+    text-transform: block;
+}
+
+/* ----Layout Containers ---- */
 
 .container {
    padding-left: 1em;
@@ -69,16 +76,12 @@ h3 {
 }
 
 .main-header {
-    text-align: center;
     background: rgb(245, 241, 241);
     padding-top: 1.5em;
     padding-bottom: 1.5em;
     margin-bottom: 30px;
 }
 
-
-  
- 
 
   .footer {
     padding: 2em 0;
@@ -99,7 +102,7 @@ h3 {
     }
     
     .container {
-        width: 80%;
+        width: 85%;
         max-width: 1150px;
         margin: 0 auto;
     }
@@ -112,6 +115,10 @@ h3 {
 
     .name {
         width: 240px;
+    }
+
+    img {
+        width: 300px;
     }
 
 }
