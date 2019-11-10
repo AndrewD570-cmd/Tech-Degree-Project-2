@@ -1,7 +1,5 @@
 
-/* ================================= 
-       Base Element Styles
-==================================== */
+/* Base Element Styles */
 * {
     box-sizing: border-box;
 }
@@ -33,13 +31,18 @@ h3 {
 }
 
 
-/* ================================= 
-         Base Layout Styles
-==================================== */
 
-               /* Navigation */
+/* Base Layout Styles */
+
+/* Navigation */
+
 .name {
     font-size: 1.25em;
+    width: 240px;
+}
+
+.wrap {
+    min-height: 100vh;
 }
 
 .name,
@@ -47,7 +50,8 @@ h3 {
 	text-align: center;
 	background: #fff;
 	margin-top: 6px;
-	margin-bottom: 6px;
+    margin-bottom: 6px;
+    display: inline-block;
 }
 
 
@@ -68,11 +72,18 @@ h3 {
     text-transform: block;
 }
 
+img {
+    width: 300px;
+}
+
 /* ----Layout Containers ---- */
 
 .container {
    padding-left: 1em;
    padding-right: 1em;
+   width: 85%;
+   max-width: 1150px;
+   margin: 0 auto;
 }
 
 .main-header {
@@ -95,31 +106,11 @@ h3 {
            Media Queries
 ==================================== */
 
-@media (min-width: 320px) {
-    
-    .wrap {
-        min-height: 100vh;
-    }
-    
+  @media (min-width: 768px) {
+      
     .container {
-        width: 85%;
-        max-width: 1150px;
+        width: 90%;
         margin: 0 auto;
     }
- 
-    .name,
-    .main-nav li {
-        display: inline-block;
-        
-    }
-
-    .name {
-        width: 240px;
-    }
-
-    img {
-        width: 300px;
-    }
-
 }
 
