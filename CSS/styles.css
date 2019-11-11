@@ -22,12 +22,17 @@ p {
 h2,
 h3,
 a {
-	color: #093a58;
+    color: #093a58;
+    text-align: center;
 }
 
 h2,
 h3 {
 	margin-top: 0;
+}
+
+img {
+    max-width: 100%;
 }
 
 
@@ -36,12 +41,18 @@ h3 {
 
 /* Navigation */
 
-.name {
-    font-size: 1.25em;
-    width: 240px;
+.main-nav {
+    margin-bottom: 30px;
+    display: inline-block
 }
 
 
+.name {
+    font-size: 1.25em;
+    width: 240px;
+    margin: 0 auto;
+    display: block;
+}
 
 .name,
 .main-nav li {
@@ -49,7 +60,8 @@ h3 {
 	background: #fff;
 	margin-top: 6px;
     margin-bottom: 6px;
-    display: inline-block;
+    display: block;
+    width: 240px;
 }
 
 
@@ -89,6 +101,7 @@ img {
     padding-top: 1.5em;
     padding-bottom: 1.5em;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 
@@ -97,6 +110,12 @@ img {
     background: rgb(245, 241, 241);
     text-align: center;
 }
+
+.col {
+    text-align: center;
+}
+
+
 
 
 
