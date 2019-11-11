@@ -41,9 +41,7 @@ h3 {
     width: 240px;
 }
 
-.wrap {
-    min-height: 100vh;
-}
+
 
 .name,
 .main-nav li {
@@ -108,9 +106,20 @@ img {
 
   @media (min-width: 768px) {
       
-    .container {
-        width: 90%;
-        margin: 0 auto;
+    
+    
+
+   
+
+
+
+   /* --Float clearfix-- */
+
+    .clearfix::after {
+        content: " ";
+        display: table;
+        clear: both;
     }
+
 }
 
