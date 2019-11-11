@@ -9,83 +9,80 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="CSS/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="name">Andrew Dank</h1>
+            <nav>
+                <ul class="main-nav">
+                    <li><a id="home">HOME</a></li>
+                    <li><a href="#porfolio">PORTFOLIO</a></li>
+                    <li><a href="#contacts">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
 
-   
-        <header class="main-header">
-            <div class="container">
-                <h1 class="name">Andrew Dank</h1>
-                <nav>
-                    <ul class="main-nav">
-                        <li><a id="home">HOME</a></li>
-                        <li><a href="#porfolio">PORTFOLIO</a></li>
-                        <li><a href="#contacts">CONTACT</a></li>
-                    </ul>
-                </nav>
-            </div>
+        <img class="image" src="images/responsive-layout-profile.png" alt="Image of a student">
+        <p>
+            Hi! I'm a front-end developer who loves responsive
+            design and CSS. I recently finished a degree
+            in front-end web development at Treehouse
+            and am excited to put all my skills to use!
+        </p>
+    </header>
 
-            <img class="col" src="images/responsive-layout-profile.png" alt="Image of a student">
-            <p>
-                Hi! I'm a front-end developer who loves responsive
-                design and CSS. I recently finished a degree
-                in front-end web development at Treehouse
-                and am excited to put all my skills to use!
+    <div class="container col">
+        <h3 id="porfolio">Portfolio</h3>
+
+
+        <div class="col">
+            <img id="frontpage" src="images/portfolio-1.png" alt="Drawing of a front page">
+            <h2>Marketing Page</h2>
+            <p>This project shows the front page of a marketing website meant for a specific business I'm interested
+                in.
             </p>
-        </header>
+        </div>
 
-        <div class="container col">
-            <h3 id="porfolio">Portfolio</h3>
+        <div class="col">
+            <img id="seach" src="images/portfolio-2.png" alt="Drawing of a search page.">
+            <h2>Search Page</h2>
+            <p>This project searches through a specific database to find information that the user is trying to look
+                up.
+            </p>
+        </div>
 
-
-            <div class="col">
-                <img id="frontpage" src="images/portfolio-1.png" alt="Drawing of a front page">
-                <h2>Marketing Page</h2>
-                <p>This project shows the front page of a marketing website meant for a specific business I'm interested
-                    in.
-                </p>
-            </div>
-
-            <div class="col">
-                <img id="seach" src="images/portfolio-2.png" alt="Drawing of a search page.">
-                <h2>Search Page</h2>
-                <p>This project searches through a specific database to find information that the user is trying to look
-                    up.
-                </p>
-            </div>
-
-            <div class="col">
-                <img id="travel" src="images/portfolio-3.png" alt="Drawing of a travel app">
-                <h2>Travel App</h2>
-                <p>This project compare travel times based on different transportation methods and tells you the best
-                    one.
-                </p>
-            </div>
+        <div class="col">
+            <img id="travel" src="images/portfolio-3.png" alt="Drawing of a travel app">
+            <h2>Travel App</h2>
+            <p>This project compare travel times based on different transportation methods and tells you the best
+                one.
+            </p>
+        </div>
 
 
 
-            <div class="col">
-                <img id="drawing" src="images/portfolio-4.png" alt="Drawing of a map">
-                <h2>Map of Favorite Spots</h2>
-                <p>This product uses mapping apis to plot points for my favorite spot in the city for a do-it-yourself
-                    walking tour.</p>
-            </div>
+        <div class="col">
+            <img id="drawing" src="images/portfolio-4.png" alt="Drawing of a map">
+            <h2>Map of Favorite Spots</h2>
+            <p>This product uses mapping apis to plot points for my favorite spot in the city for a do-it-yourself
+                walking tour.</p>
+        </div>
 
-            <div class="col">
-                <img id="photo" src="images/portfolio-5.png" alt="Drawing of a photo">
-                <h2>Photo Gallery</h2>
-                <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate
-                    through
-                    photos. </p>
-            </div>
+        <div class="col">
+            <img id="photo" src="images/portfolio-5.png" alt="Drawing of a photo">
+            <h2>Photo Gallery</h2>
+            <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate
+                through
+                photos. </p>
+        </div>
 
-             <div class="col">
-                <img id="calculator" src="images/portfolio-6.png" alt="Drawing of a calculator">
-                <h2>Calculator</h2>
-                <p>Somoneone can enter in the numbers they want, and press the big blue button and get the result.
-                </p>
+        <div class="col">
+            <img id="calculator" src="images/portfolio-6.png" alt="Drawing of a calculator">
+            <h2>Calculator</h2>
+            <p>Somoneone can enter in the numbers they want, and press the big blue button and get the result.
+            </p>
         </div>
 
         <div id="contacts">
@@ -94,19 +91,19 @@
                 more information about what i've beene working on, I'd love to hear
                 from you!
             </p>
+            <ul>
+                <li>Phone +1 (111) 555-1234</li>
+                <li>Email email@yoursite.com</li>
+            </ul>
         </div>
     </div>
 
 
 
-    
+
     <footer class="footer">
         <nav>
-            <ul>
-                <li>Phone +1 (111) 555-1234</li>
-                <li>Email email@yoursite.com</li>
-            </ul>
-            <ul>
+            <ul class="footerlist">
                 <li><strong> Andrew Dank</strong></li>
                 <li><strong><a href="#home"> BACK TO TOP</a></strong></li>
             </ul>

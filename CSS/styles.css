@@ -10,7 +10,7 @@ body {
     font-family:  'Roboto Condensed', sans-serif;
    }
 
-   a {
+a {
     text-decoration: none;
 }
 
@@ -32,7 +32,7 @@ h3 {
 }
 
 img {
-    max-width: 100%;
+  display: inline-block;
 }
 
 
@@ -61,7 +61,7 @@ img {
 	margin-top: 6px;
     margin-bottom: 6px;
     display: block;
-    width: 240px;
+    width: 420px;
 }
 
 
@@ -88,6 +88,11 @@ img {
 
 /* ----Layout Containers ---- */
 
+#contacts {
+    background: rgb(245, 241, 241);
+    border-bottom: 1px solid black;
+}
+
 .container {
    padding-left: 1em;
    padding-right: 1em;
@@ -104,6 +109,10 @@ img {
     text-align: center;
 }
 
+.col {
+    text-align: center;
+}
+
 
   .footer {
     padding: 2em 0;
@@ -111,10 +120,11 @@ img {
     text-align: center;
 }
 
-.col {
-    text-align: center;
-}
 
+.footerlist li {
+    display: inline-block;
+    margin: 0 60px;
+}
 
 
 
@@ -124,6 +134,10 @@ img {
 ==================================== */
 
   @media (min-width: 768px) {
+
+    p {
+        border: 1px solid red;
+    }
       
     
     
