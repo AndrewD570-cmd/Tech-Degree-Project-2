@@ -138,14 +138,19 @@ img {
         margin: 0 auto;
     }
 
-    .main-nav li {
-        display: inline;
-    }
-
     .main-header {
         background: none;
     }
 
+    
+    .main-nav li {
+        display: inline;
+    }
+
+    .image {
+        float: right;
+    }
+   
  
 
    
