@@ -39,86 +39,17 @@ h3 {
 
 /* Navigation */
 
-.main-nav {
-    margin-bottom: 30px;
-    display: block;
-}
 
 
-.name {
-    font-size: 1.25em;
-    width: 420px;
-    margin: 0 auto;
-    display: block;
-}
 
 
-.main-nav li {
-	background: #fff;
-    display: block;
-    width: 420px;
-    margin: 6px;
-}
-
-
-.main-nav a:hover {
-	color: blue;
-}
-
-.name a,
-.main-nav a {
-	padding: 20px 30px;
-	}
-
-
-.main-nav a {
-    font-size: .95em;
-    text-transform: block;
-}
-
-img {
-    width: 300px;
-}
 
 /* ----Layout Containers ---- */
 
-#contacts {
-    background: rgb(245, 241, 241);
-    border-bottom: 1px solid black;
-}
 
-.container {
-   padding-left: 1em;
-   padding-right: 1em;
-   width: 85%;
-   max-width: 1150px;
-   margin: 0 auto;
-}
-
-.main-header {
-    background: rgb(245, 241, 241);
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-.col {
-    text-align: center;
 }
 
 
-  .footer {
-    padding: 2em 0;
-    background: rgb(245, 241, 241);
-    text-align: center;
-}
-
-
-.footerlist li {
-    display: inline-block;
-    margin: 0 60px;
-}
 
 
 
@@ -127,41 +58,13 @@ img {
            Media Queries
 ==================================== */
 
-  @media (min-width: 768px) {
-
-    p {
-        border: 1px solid red;
-    }
-
-    .container {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .main-header {
-        background: none;
-    }
-
-    
-    .main-nav li {
-        display: inline;
-    }
-
-    .image {
-        float: right;
-    }
-   
- 
-
-   
-
-   
+  @media (min-width: 768px) {  /* Tablet   */
 
   
+   
+ }
 
-}
-
-    @media (min-width: 1024px) {
+    @media (min-width: 1024px) { /* Desktop   */
 
         p {
             border: 1px solid green;
@@ -169,13 +72,7 @@ img {
 }
       
     
-    
-
-   
-
-
-
-   /* --Float clearfix-- */
+/* --Float clearfix-- */
 
     .clearfix::after {
         content: " ";

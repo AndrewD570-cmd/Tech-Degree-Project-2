@@ -12,27 +12,33 @@
 </head>
 
 <body>
-    <header class="main-header clearfix">
+    <!-- Start of Header -->
+    <header class="main-header">
         <div class="container">
             <h1 class="name">Andrew Dank</h1>
             <nav>
-                <ul class="main-nav clearfix">
+                <ul class="main-nav">
                     <li id="home"><a href="#">HOME</a></li>
                     <li><a href="#porfolio">PORTFOLIO</a></li>
                     <li><a href="#contacts">CONTACT</a></li>
                 </ul>
             </nav>
-            <img class="image" src="images/responsive-layout-profile.png" alt="Image of a student">
-            <p>
-                Hi! I'm a front-end developer who loves responsive
-                design and CSS. I recently finished a degree
-                in front-end web development at Treehouse
-                and am excited to put all my skills to use!
-            </p>
+            <section class="image">
+                <img src="images/responsive-layout-profile.png" alt="Image of a student">
+                <p>
+                    Hi! I'm a front-end developer who loves responsive
+                    design and CSS. I recently finished a degree
+                    in front-end web development at Treehouse
+                    and am excited to put all my skills to use!
+                </p>
+            </section>
         </div>
     </header>
+<!-- End of Header -->
 
-    <div class="container col">
+    <!-- Start of main section -->
+
+    <div class="container">
         <h3 id="porfolio">Portfolio</h3>
         <div class="col">
             <img id="frontpage" src="images/portfolio-1.png" alt="Drawing of a front page">
@@ -42,7 +48,9 @@
             </p>
         </div>
 
-        <div class="col">
+        
+
+        <div>
             <img id="seach" src="images/portfolio-2.png" alt="Drawing of a search page.">
             <h2>Search Page</h2>
             <p>This project searches through a specific database to find information that the user is trying to look
@@ -50,8 +58,8 @@
             </p>
         </div>
 
-        <div class="col">
-            <img id="travel" src="images/portfolio-3.png" alt="Drawing of a travel app">
+        <div>
+            <img src="images/portfolio-3.png" alt="Drawing of a travel app">
             <h2>Travel App</h2>
             <p>This project compare travel times based on different transportation methods and tells you the best
                 one.
@@ -61,13 +69,13 @@
 
 
         <div class="col">
-            <img id="drawing" src="images/portfolio-4.png" alt="Drawing of a map">
+            <img src="images/portfolio-4.png" alt="Drawing of a map">
             <h2>Map of Favorite Spots</h2>
             <p>This product uses mapping apis to plot points for my favorite spot in the city for a do-it-yourself
                 walking tour.</p>
         </div>
 
-        <div class="col">
+        <div>
             <img id="photo" src="images/portfolio-5.png" alt="Drawing of a photo">
             <h2>Photo Gallery</h2>
             <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate
@@ -75,15 +83,15 @@
                 photos. </p>
         </div>
 
-        <div class="col">
+        <div>
             <img id="calculator" src="images/portfolio-6.png" alt="Drawing of a calculator">
             <h2>Calculator</h2>
             <p>Somoneone can enter in the numbers they want, and press the big blue button and get the result.
             </p>
         </div>
 
-        <div id="contacts">
-            <h2>Contact</h2>
+        <div>
+            <h2 id="contacts">Contact</h2>
             <p>If you're interested in chatting or want
                 more information about what i've beene working on, I'd love to hear
                 from you!
@@ -98,9 +106,9 @@
 
 
 
-    <footer class="footer">
+    <footer>
         <nav>
-            <ul class="footerlist">
+            <ul>
                 <li><strong> Andrew Dank</strong></li>
                 <li><strong><a href="#home"> BACK TO TOP</a></strong></li>
             </ul>
