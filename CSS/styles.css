@@ -10,15 +10,7 @@
     box-sizing: border-box;
 }
 
-body {
-   font: normal 1em/1.5 'Roboto', sans-serif;
-   margin: 0;
-    
-    /* text-align: center; */
-}
-
- 
-p {
+ p {
     font-weight: normal;
 }
 
@@ -31,9 +23,10 @@ a {
     font-weight: bold;
 }
 
-ul {
+nav {
     list-style-type: none;
-    margin: 30px 0;
+    /* margin: 30px 0; */
+    margin: 5px 0 30px;
 }
 
 li {
@@ -44,17 +37,28 @@ li {
 h1,
 h3,  
 p {
-    font-size: 1.25rem;
+    font-size: 1.00rem;
+    margin-bottom: 1.5rem;
 }
+
+
 
 .color {
     color: white;
+}
+
+.contacts {
+    
 }
 
 
 .img {
     max-width: 100%;
     /* margin-bottom: 20%; */
+    border-radius: 12px;
+    border: 14px solid green;
+    box-shadow: 0 0 0 14px green;
+
 }
 
 .image1 {
@@ -89,6 +93,18 @@ a:hover {
 
 /* Layout Styles */
 
+.wrapper {
+    font: normal 1em/1.5 'Roboto', sans-serif;
+    margin: 0 auto;
+    line-height: 1.6;
+    width: 70%;
+    text-align: center;
+
+}
+
+.container {
+    padding: 0 1em;
+}
 
 .main-header {
     /* background-color:
@@ -100,14 +116,34 @@ a:hover {
     background:  rgb(250, 242, 242) url('../images/abstract.jpeg') no-repeat center;
     background-size: cover;
     /* box-shadow: 15px 15px 10px rgba(0, 0, 0, .8) */
+    padding: 1.5rem 0;
+    text-align: center;
+    margin-top: 30px;
+    overflow: hidden;
 }
 
-.main-heading {
+.name {
+    text-align: center;
+    background: #fff;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+nav a {
+    text-align: center;
+    display: block;
+    padding: 10px 15px;
+}
+
+
+.name {
+    margin: 0;
     font-size: 1.5rem;
     display: inline;
     color: rgba(255, 255,255, 1);
-    font-weight: bold;
+    font-weight: normal;
     text-shadow: 0 1px 1px rgba(0, 0, 0, .8);
+    color: black;
 }
 
 
@@ -115,23 +151,23 @@ a:hover {
 .main-header {
     /* border: 3px solid red; */
     /* box-sizing: border-box; */
-    text-align: center;
+    /* text-align: center; */
     /* width: 45%; */
     margin-left: 10%;
     margin: auto;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 1rem;
+    padding-left: 1rem;
     max-width: 900px;
+    
 }
 
 .main-footer {
-    padding: 60px 0;
-    /* gives the content in the filler some breathing room */
+    padding: 2em 0;;
     border-top: 2px solid lightgrey;
     text-align: center;
 }
 
-.main-footer nav ul li {
+.main-footer ul li {
     display: inline-block;
     margin-right: 50px;
 }
@@ -148,25 +184,35 @@ a:hover {
 
 /*Media Queries*/
 
-  @media (min-width: 768px) {  /* Tablet   */
+  @media (min-width: 768px) {  
 
     p {
         border: 2px solid red;
     }
-    li {
+
+    .name {
+       
         display: inline-block;
     }
 
-    .main-content {
+    .contacts{
+        width: 100%;
+    }
+    
+    nav li {
+        
+        margin-bottom: 2rem;
+        margin-right: 2rem;
+        display: inline-block;
+    }
+
+    .wrapper {
+        width: 75%;
         overflow: auto;
     }
 
-    .contacts {
-        text-align: center;
-        padding: 50px 0 0 0;
-        margin-top: 30px;
-    }
-    
+  
+
     
     .col1,
     .col2,
@@ -175,21 +221,29 @@ a:hover {
     .col5,
     .col6 {
         width: 45%;
+        max-width: 1000px;
     }
 
     .col1,
     .col3,
     .col5 {
         float: left;
+        width: 50%;
     }
 
     .col2,
     .col4,
     .col6 {
         float: right;
+        width: 50%;
     }
 
-    .group:after {
+    .image1 {
+        margin-top: 5px;
+        margin-right: 25px;
+    }
+
+    .clearfix:after {
         content: "";
         display: table;
         clear: both;
@@ -203,15 +257,65 @@ a:hover {
             border: 2px solid green;
         }
 
-        li {
+       
+
+        .img {
+            float: right;
+            width: 200px;
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-top: 25px;
+            padding: 10px;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1150%;
+            margin: 0 auto;
             display: inline-block;
         }
+
+    
+           
+
+
+        
+
+        nav li {
+        float: right;
+        margin-left: 12px;
+        }
+        
+        .name {
+          float: left;
+          text-align: center;
+          
+           }
+           
+           
+        .clearfix::after {
+            content: " ";
+            display: table;
+            clear: both;
+        }
+
+    .col1,
+    .col2,
+    .col3,
+    .col4,
+    .col5,
+    .col6 {
+        width: 30%;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin-right: 1em;
+        max-width: 1000px;
+        display: inline-block
     }
 
-/* --Float clearfix-- */
+   
+       
+    }
 
-.clearfix::after {
-    content: " ";
-    display: table;
-    clear: both;
-}
+
+
