@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div id="home" class="wrapper">
 
         <!-- Start of Header -->
         <header id="top" class="main-header">
@@ -20,8 +20,8 @@
                 <h1 class="name">Andrew Dank</h1>
                 <nav>
                     <li class="home"><a href="#">HOME</a></li>
-                    <li class="portfolio"><a href="#porfolio">PORTFOLIO</a></li>
-                    <li class="contact"><a href="#contacts">CONTACT</a></li>
+                    <li a href="#portfolio" class="portfolio"><a href="#porfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                     <nav>
             </div>
 
@@ -41,7 +41,7 @@
         <!-- Start of main section -->
 
         <div class="main-content clearfix">
-            <h3 class="porfolio">Portfolio</h3>
+            <h3 id="portfolio" class="porfolio">Portfolio</h3>
 
             <div class="col1 col">
                 <img class="image1" id="frontpage" src="images/portfolio-1.png" alt="Drawing of a front page">
@@ -94,14 +94,14 @@
             </div>
 
             <div class="contacts">
-                <h2 class="clearfix">Contact</h2>
+                <h2 id="contact" class="clearfix">Contact</h2>
                 <p>If you're interested in chatting or want
                     more information about what i've beene working on, I'd love to hear
                     from you!
                 </p>
                 <ul>
-                    <li>Phone +1 (111) 555-1234</li>
-                    <li>Email email@yoursite.com</li>
+                    <li>Phone <strong>+1 (111) 555-1234</strong></li>
+                    <li>Email <strong>email@yoursite.com</strong></li>
                 </ul>
             </div>
         </div>
@@ -114,9 +114,9 @@
             <ul>
                 <li class="student bold">Andrew Dank</li>
                 <li class="back"><strong><a href="#top"> BACK TO TOP</a></strong></li>
-                <li>Home</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
+                <li><a href="#home"> Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+               
             </ul>
 
         </footer>
