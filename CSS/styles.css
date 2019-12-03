@@ -66,6 +66,10 @@ p {
     color: white;
 }
 
+#skills{
+    background:blue;
+    color:white;
+}
 
                   /* Link Styles */
 
@@ -90,6 +94,10 @@ a:hover {
 }
 
 
+.contacts {
+    margin: 0;
+    text-align: center;
+}
 
 
 /* Layout Styles */
@@ -184,6 +192,8 @@ nav a {
 
     .contacts{
         width: 100%;
+        text-align: center;
+
     }
     
     nav li {
@@ -254,6 +264,7 @@ nav a {
             display: inline-block;
         }
 
+       
         nav {
             position: relative;
         }
