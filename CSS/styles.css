@@ -22,7 +22,7 @@ a {
     font-weight: bold;
 }
 
-nav {
+ul {
     list-style-type: none;
     margin: 40px 0 30px;
 }
@@ -100,7 +100,7 @@ a:hover {
 
 /* Layout Styles */
 
-nav a {
+ul a {
     text-align: center;
     display: block;
     padding: 10px 15px;
@@ -169,7 +169,7 @@ nav a {
 
   @media (min-width: 768px) {  
 
-nav li {
+ul li {
     margin-bottom: 2rem;
     margin-right: 2rem;
     display: inline-block;
@@ -245,11 +245,11 @@ nav li {
 
 @media (min-width: 1024px) { /* Desktop   */
 
-    nav {
+    ul {
         position: relative;
     }
 
-    nav li {
+    ul li {
         top: 20px;
         margin-right: .5px;
         display: inline-block;
