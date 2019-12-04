@@ -79,7 +79,7 @@ a:link {
     
     text-decoration: none;
     display: block;
-    background-color: rgb(250, 242, 242) url('../images/abstract.jpeg') no-repeat center;
+    /* background-color: rgb(250, 242, 242) url('../images/abstract.jpeg') no-repeat center; */
 }
 
 a:link main-footer{
@@ -131,7 +131,7 @@ ul a {
 
 .name {
     text-align: center;
-    background:  rgb(250, 242, 242) url('../images/abstract.jpeg') no-repeat center;;
+    background:  rgb(250, 242, 242) url('../images/abstract.jpeg') no-repeat center;
     margin: 0;
     display: inline;
     font-size: 1.5rem;
