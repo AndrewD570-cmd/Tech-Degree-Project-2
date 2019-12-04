@@ -24,7 +24,6 @@ a {
 
 nav {
     list-style-type: none;
-    /* margin: 30px 0; */
     margin: 40px 0 30px;
 }
 
@@ -49,14 +48,11 @@ p {
     border-radius: 12px;
     border: 14px solid green;
     box-shadow: 0 0 0 14px green;
-
 }
 
 .image1 {
     width: 100%;
 }
-
-
 
 .bold {
     font-weight: bold;
@@ -64,6 +60,11 @@ p {
 
 .color {
     color: white;
+}
+
+.contacts {
+    margin: 0;
+    text-align: center;
 }
 
 #skills{
@@ -94,13 +95,16 @@ a:hover {
 }
 
 
-.contacts {
-    margin: 0;
-    text-align: center;
-}
+
 
 
 /* Layout Styles */
+
+nav a {
+    text-align: center;
+    display: block;
+    padding: 10px 15px;
+}
 
 .wrapper {
     font: normal 1em/1.5 'Roboto', sans-serif;
@@ -136,11 +140,7 @@ a:hover {
     text-shadow: 0 1px 1px rgba(0, 0, 0, .8);
 }
 
-nav a {
-    text-align: center;
-    display: block;
-    padding: 10px 15px;
-}
+
 
 .main-content, 
 .main-header {
@@ -169,74 +169,71 @@ nav a {
 
   @media (min-width: 768px) {  
 
-   .img {
-        float: right;
-        width: 200px;
-        margin-left: 25px;
-        margin-right: 25px;
-        margin-top: 25px;
-        padding: 10px;
-        position: relative;
-        bottom: 50px;
-    }
+nav li {
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    display: inline-block;
+}
+   
+.img {
+    float: right;
+    width: 200px;
+    /* margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px; */
+    margin: 25px 25px 0;
+    padding: 10px;
+    position: relative;
+    bottom: 50px;
+}
 
-    .container {
-        width: 100%;
-        margin: 0 auto;
-    }
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
 
-    .name {
-       
-        display: inline-block;
-    }
-
-    .contacts{
-        width: 100%;
-        text-align: center;
-
-    }
+.name {
     
-    nav li {
-        margin-bottom: 2rem;
-        margin-right: 2rem;
-        display: inline-block;
-    }
+    display: inline-block;
+}
 
-    .wrapper {
-        width: 75%;
-        overflow: auto;
-    }
+.contacts{
+    width: 100%;
+    text-align: center;
 
-
-    .col1,
-    .col3,
-    .col5 {
-        float: left;
-        width: 50%;
-    }
-
-    .col2,
-    .col4,
-    .col6 {
-        float: right;
-        width: 50%;
-    }
-
-    .image1 {
-        margin-top: 5px;
-        margin-right: 25px;
-    }
+}
+    
 
 
-    .main-footer ul li {
+.wrapper {
+    width: 75%;
+    overflow: auto;
+}
+
+
+.col1,
+.col3,
+.col5 {
+    float: left;
+    width: 50%;
+}
+
+.col2,
+.col4,
+.col6 {
+    float: right;
+    width: 50%;
+}
+
+.image1 {
+    margin-top: 5px;
+    margin-right: 25px;
+}
+
+.main-footer ul li {
         display: inline-block;
         margin-right: 50px;
     }
-
-    .student {
-        float: left;
-    }
-
 
     .clearfix:after {
         content: "";
@@ -246,57 +243,46 @@ nav a {
 
  }
 
-    @media (min-width: 1024px) { /* Desktop   */
+@media (min-width: 1024px) { /* Desktop   */
 
-       .img {
-            float: right;
-            width: 200px;
-            margin-left: 25px;
-            margin-right: 25px;
-            margin-top: 25px;
-            padding: 10px;
-        }
+    nav {
+        position: relative;
+    }
 
-        .container {
-            width: 80%;
-            max-width: 1150px;
-            margin: 0 auto;
-            display: inline-block;
-        }
+    nav li {
+        top: 20px;
+        margin-right: .5px;
+        display: inline-block;
+        margin-left: 40px;
+        position: relative;
+        left: 150px;
+        bottom: 70px;
+    }
+    
+    .img {
+        float: right;
+        width: 200px;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 25px;
+        padding: 10px;
+    }
 
-       
-        nav {
-            position: relative;
-        }
+    .container {
+        width: 80%;
+        max-width: 1150px;
+        margin: 0 auto;
+        display: inline-block;
+    }
 
-        nav li {
-            top: 20px;
-            margin-right: .5px;
-            display: inline-block;
-            margin-left: 40px;
-            position: relative;
-            left: 150px;
-            bottom: 70px;
+    .name {
+        float: left;
+        text-align: center;
+        position: relative;
+        top: 60px;
+        right: 100px;
         }
-        
-        .name {
-          float: left;
-          text-align: center;
-          position: relative;
-          top: 60px;
-          right: 100px;
-          }
-          .student {
-              float: left;
-          }
            
-           
-        .clearfix::after {
-            content: " ";
-            display: table;
-            clear: both;
-        }
-
     .col1,
     .col2,
     .col3,
@@ -309,6 +295,11 @@ nav a {
         margin-right: 1em;
         max-width: 1000px;
         display: inline-block
+    }
+    .clearfix::after {
+        content: " ";
+        display: table;
+        clear: both;
     }
 }
 
