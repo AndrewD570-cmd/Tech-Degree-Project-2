@@ -63,14 +63,28 @@ p {
 }
 
 .contacts {
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
 }
 
-#skills{
+.skill {
+    position: relative;
     background:blue;
     color:white;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
 }
+
+
+.skill ul{
+    text-align: center;
+    margin: auto;
+    display: block;
+    position: relative;
+    right: 1px;
+}
+
 
                   /* Link Styles */
 
@@ -174,6 +188,14 @@ ul li {
     margin-right: 2rem;
     display: inline-block;
 }
+
+.skill ul{
+    text-align: center;
+    margin: auto;
+    display: block;
+    position: relative;
+    right: 1px;
+}
    
 .img {
     float: right;
@@ -245,6 +267,10 @@ ul li {
 
 @media (min-width: 1024px) { /* Desktop   */
 
+    main-header {
+        position: relative;
+    }
+
     ul {
         position: relative;
     }
@@ -257,6 +283,14 @@ ul li {
         position: relative;
         left: 150px;
         bottom: 70px;
+    }
+
+    .skill ul{
+        text-align: center;
+        margin: auto;
+        display: block;
+        position: relative;
+        right: 150px;
     }
     
     .img {
@@ -296,6 +330,10 @@ ul li {
         max-width: 1000px;
         display: inline-block
     }
+
+   
+
+    
     .clearfix::after {
         content: " ";
         display: table;
