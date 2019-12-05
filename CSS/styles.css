@@ -121,7 +121,7 @@ ul a {
 }
 
 .wrapper {
-    font: normal 1em/1.5 'Roboto', sans-serif;
+    font: normal 1em/1.5 'Roboto Condensed', sans-serif;
     margin: 0 auto;
     line-height: 1.6;
     width: 70%;
@@ -175,7 +175,7 @@ ul a {
 }
 
 .main-footer ul li {
-    display: block;
+    display: inline-block;
     margin-right: 50px;
 }
 
@@ -323,12 +323,10 @@ ul li {
     .col4,
     .col5,
     .col6 {
-        width: 30%;
-        padding-left: 1em;
-        padding-right: 1em;
-        margin-right: 1em;
+        width: 33%;
         max-width: 1000px;
-        display: inline-block
+        display: inline-block;
+        min-height: 400px;
     }
 
    
