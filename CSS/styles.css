@@ -54,6 +54,15 @@ p {
     width: 100%;
 }
 
+.back {
+    display: inline-block;
+}
+
+.student {
+    display: inline-block;
+    margin-right: 150px;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -176,6 +185,8 @@ ul a {
     margin-right: 50px; */
     display: none;
 }
+
+
 
 /*Media Queries*/
 
