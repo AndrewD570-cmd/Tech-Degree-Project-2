@@ -63,7 +63,7 @@ p {
 }
 
 .contacts {
-    margin: 0 auto;
+    margin: auto 0;
     text-align: center;
 }
 
@@ -77,7 +77,7 @@ p {
 }
 
 
-.skill ul{
+.skill ul {
     text-align: center;
     margin: auto;
     display: block;
@@ -168,13 +168,13 @@ ul a {
 .main-footer {
     padding: 2em 0;
     border-top: 2px solid lightgrey;
-    text-align: center;
-    color: black;
-}
 
-.main-footer ul li {
-    display: inline-block;
-    margin-right: 50px;
+   }
+
+.main-footer ul li a{
+    /* display: inline-block;
+    margin-right: 50px; */
+    display: none;
 }
 
 /*Media Queries*/
@@ -185,6 +185,24 @@ ul li {
     margin-bottom: 2rem;
     margin-right: 2rem;
     display: inline-block;
+}
+
+.student {
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+}
+
+.back {
+    display: none;
+}
+
+.main-footer ul li a{
+    display: inline;
+    position: relative;
+    left: 230px;
+    bottom: 30px;
+    margin-right: 5px;
 }
 
 .skill ul {
@@ -217,17 +235,16 @@ ul li {
 }
 
 .contacts{
-    margin-top: 40px;
+    margin-top: 80px;
     margin-bottom: 20px;
     width: 100%;
     text-align: center;
-
 }
     
 
 
 .wrapper {
-    width: 75%;
+    width: 90%;
     overflow: auto;
 }
 
@@ -251,10 +268,7 @@ ul li {
     margin-right: 25px;
 }
 
-.main-footer ul li {
-        display: inline-block;
-        margin-right: 50px;
-    }
+
 
     .clearfix:after {
         content: "";
@@ -280,9 +294,11 @@ ul li {
         display: inline-block;
         margin-left: 40px;
         position: relative;
-        left: 150px;
+        
         bottom: 70px;
     }
+
+
 
     .skill ul{
         text-align: center;
@@ -290,6 +306,10 @@ ul li {
         display: block;
         position: relative;
         right: 150px;
+    }
+
+    .wrapper {
+        width: 100%;
     }
     
     .img {
