@@ -240,11 +240,14 @@ ul li {
     width: 100%;
     text-align: center;
 }
+.contacts li {
+    display: block;
+}
     
 
 
 .wrapper {
-    width: 90%;
+    width: 80%;
     overflow: auto;
 }
 
@@ -280,10 +283,17 @@ ul li {
 
 @media (min-width: 1024px) { /* Desktop   */
 
-    main-header {
+    .main-header {
         position: relative;
     }
 
+    .main-footer ul li a{
+        display: inline;
+        position: relative;
+        left: 230px;
+        bottom: 30px;
+        margin-right: 5px;
+    }
     ul {
         position: relative;
     }
@@ -294,7 +304,6 @@ ul li {
         display: inline-block;
         margin-left: 40px;
         position: relative;
-        
         bottom: 70px;
     }
 
