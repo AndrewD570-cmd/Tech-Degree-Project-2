@@ -300,7 +300,7 @@ ul li {
         top: 20px;
         margin-right: .5px;
         display: inline-block;
-        margin-left: 40px;
+        margin-left: 20px;
         position: relative;
         bottom: 70px;
     }
@@ -312,7 +312,7 @@ ul li {
         margin: auto;
         display: block;
         position: relative;
-        right: 150px;
+        right: 10px;
     }
 
     .wrapper {
