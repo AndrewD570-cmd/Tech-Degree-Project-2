@@ -187,14 +187,16 @@ ul li {
     display: inline-block;
 }
 
+.wrapper {
+    width: 80%;
+    overflow: auto;
+}
+
+
 .student {
     display: inline-block;
     position: absolute;
     left: 50px;
-}
-
-.back {
-    display: none;
 }
 
 .main-footer ul li a{
@@ -203,50 +205,6 @@ ul li {
     left: 230px;
     bottom: 30px;
     margin-right: 5px;
-}
-
-.skill ul {
-    text-align: center;
-    margin: auto;
-    display: block;
-    position: relative;
-    right: 1px;
-}
-   
-.img {
-    float: right;
-    width: 200px;
-    /* margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 25px; */
-    margin: 25px 25px 0;
-    padding: 10px;
-    position: relative;
-    bottom: 50px;
-}
-
-.container {
-    width: 100%;
-    margin: 0 auto;
-}
-
-.name {
-    display: inline-block;
-}
-
-.contacts{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 100%;
-    text-align: center;
-}
-.contacts li {
-    display: block;
-}
-    
-.wrapper {
-    width: 80%;
-    overflow: auto;
 }
 
 .col1,
@@ -273,6 +231,50 @@ ul li {
 }
 
 
+
+.skill ul {
+    text-align: center;
+    margin: auto;
+    display: block;
+    position: relative;
+    right: 1px;
+}
+   
+.img {
+    float: right;
+    width: 200px;
+    /* margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px; */
+    margin: 25px 25px 0;
+    padding: 10px;
+    position: relative;
+    bottom: 50px;
+}
+
+.back {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.name {
+    display: inline-block;
+}
+
+.contacts{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+.contacts li {
+    display: block;
+}
+    
 
 .image1 {
     margin-top: 5px;
@@ -365,10 +367,7 @@ ul li {
         min-height: 400px;
     }
 
-   
-
-    
-    .clearfix::after {
+   .clearfix::after {
         content: " ";
         display: table;
         clear: both;
