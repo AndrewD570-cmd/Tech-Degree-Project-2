@@ -99,7 +99,7 @@ p {
 
 
 a:link {
-    color: blue
+    color: blue;
     text-decoration: none;
     display: block;
     /* background-color: rgb(250, 242, 242) url('../images/abstract.jpeg') no-repeat center; */
@@ -313,19 +313,16 @@ ul li {
 @media (min-width: 1024px) { /* Desktop   */
 
     .main-header {
-        /* position: relative; */
+        position: relative;
     }
 
     .main-footer ul li a{
         display: inline;
-        
         left: 230px;
         bottom: 30px;
         margin-right: 5px;
     }
-    ul {
-        position: relative;
-    }
+  
 
     ul li {
         top: 20px;
@@ -356,6 +353,7 @@ ul li {
 
     .wrapper {
         width: 100%;
+        position: absolute;
     }
     
     .img {
@@ -390,8 +388,8 @@ ul li {
 
       .footer-nav {
           position: relative;
-          top: px;
-      }
+          bottom: -15px;
+        }
      
            
     .col1,
