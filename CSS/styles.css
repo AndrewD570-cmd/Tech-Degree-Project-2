@@ -99,7 +99,7 @@ p {
 
 
 a:link {
-    
+    color: blue
     text-decoration: none;
     display: block;
     /* background-color: rgb(250, 242, 242) url('../images/abstract.jpeg') no-repeat center; */
@@ -203,7 +203,7 @@ ul li {
 
 .wrapper {
     width: 80%;
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 
@@ -219,7 +219,11 @@ ul li {
     position: relative;
     left: 230px;
     bottom: 30px;
-    margin-right: 5px;
+    
+}
+
+.main-footer {
+    margin-right: 50px;
 }
 
 .col1,
