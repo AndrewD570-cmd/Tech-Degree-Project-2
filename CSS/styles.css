@@ -121,6 +121,7 @@ a:hover {
 
 
 
+
 /* Layout Styles */
 
 ul a {
@@ -140,6 +141,7 @@ ul a {
 
 .container {
     padding: 0 1em;
+    position: relative
 }
 
 .main-header {
@@ -150,6 +152,7 @@ ul a {
     margin-top: 30px;
     overflow: hidden;
     margin-bottom: 60px;
+    position: relative;
 }
 
 .name {
@@ -305,7 +308,7 @@ ul li {
 @media (min-width: 1024px) { /* Desktop   */
 
     .main-header {
-        position: relative;
+        /* position: relative; */
     }
 
     .main-footer ul li a{
@@ -334,8 +337,12 @@ ul li {
         text-align: center;
         margin: auto;
         display: block;
+    }
+
+    .nav-header {
         position: relative;
-        right: 10px;
+        top: -60px;
+        left: 200px;
     }
 
     .wrapper {
@@ -356,15 +363,22 @@ ul li {
         max-width: 1150px;
         margin: 0 auto;
         display: inline-block;
+        position: relative;
     }
 
     .name {
         float: left;
         text-align: center;
-        position: relative;
-        top: 60px;
-        right: 100px;
-        }
+        position: absolute;
+        left: -5px;
+      }
+
+      .home {
+          position: absolute;
+          left: 60px;
+      }
+
+     
            
     .col1,
     .col2,
