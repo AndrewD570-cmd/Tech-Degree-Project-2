@@ -211,6 +211,7 @@ ul li {
     display: inline-block;
     position: absolute;
     left: 50px;
+    bottom: 50px;
 }
 
 .main-footer ul li a{
@@ -313,7 +314,7 @@ ul li {
 
     .main-footer ul li a{
         display: inline;
-        position: relative;
+        
         left: 230px;
         bottom: 30px;
         margin-right: 5px;
@@ -331,6 +332,10 @@ ul li {
         bottom: 70px;
     }
 
+        .intro {
+            position: relative;
+            bottom: 50px;
+        }
 
 
     .skill ul{
@@ -377,7 +382,12 @@ ul li {
           position: absolute;
           left: 60px;
       }
+      
 
+      .footer-nav {
+          position: relative;
+          top: px;
+      }
      
            
     .col1,
