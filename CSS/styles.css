@@ -7,6 +7,7 @@
 
 body {
     background: #f2f2f2;
+   
 }
 
  p {
@@ -137,6 +138,7 @@ ul a {
     padding: 0 1em;
     width: 99%;
     text-align: center;
+    
 }
 
 .container {
@@ -174,7 +176,7 @@ ul a {
     margin: auto;
     padding-right: 1rem;
     padding-left: 1rem;
-    max-width: 900px;
+    max-width: 1024px;
 }
 
 .main-footer {
@@ -338,9 +340,9 @@ ul li {
         bottom: 70px;
     }
 
-        .intro {
-            position: relative;
-            bottom: 50px;
+    .intro {
+        position: relative;
+        bottom: 50px;
         }
 
 
@@ -372,7 +374,7 @@ ul li {
 
     .container {
         width: 80%;
-        max-width: 1150px;
+        max-width: 1500px;
         margin: 0 auto;
         display: inline-block;
         position: relative;
@@ -387,7 +389,7 @@ ul li {
 
       .home {
           position: absolute;
-          left: 60px;
+          right: 550px;
       }
       
 
