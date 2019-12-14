@@ -182,7 +182,8 @@ ul a {
 .main-footer {
     padding: 2em 0;
     border-top: 2px solid lightgrey;
-    min-width: 1024px;
+    /* min-width: 1024px; */
+    width: 100%;
 
    }
 
