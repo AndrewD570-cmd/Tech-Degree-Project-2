@@ -7,8 +7,8 @@
 
 body {
     background: #f2f2f2;
-   
-}
+    font: normal 1em/1.5 'Roboto Condensed', sans-serif;
+   }
 
  p {
     font-weight: normal;
@@ -132,7 +132,7 @@ ul a {
 }
 
 .wrapper {
-    font: normal 1em/1.5 'Roboto Condensed', sans-serif;
+    /* font: normal 1em/1.5 'Roboto Condensed', sans-serif; */
     margin: 0 auto;
     line-height: 1.6;
     padding: 0 1em;
