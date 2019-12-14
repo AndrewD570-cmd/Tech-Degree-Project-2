@@ -155,6 +155,7 @@ ul a {
     overflow: hidden;
     margin-bottom: 60px;
     position: relative;
+    width: 100%;
 }
 
 .name {
@@ -169,13 +170,16 @@ ul a {
 }
 
 
+    
+
+
 
 .main-content, 
 .main-header {
     margin-left: 10%;
     margin: auto;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    /* padding-right: 1rem;
+    padding-left: 1rem; */
     max-width: 1024px;
 }
 
@@ -184,8 +188,9 @@ ul a {
     border-top: 2px solid lightgrey;
     /* min-width: 1024px; */
     width: 100%;
-
-   }
+    margin: 0 auto;
+    text-align: center;
+}
 
 .main-footer ul li a{
     /* display: inline-block;
@@ -323,6 +328,7 @@ ul li {
 
     .main-header {
         position: relative;
+       /* max-width: 100%; */
     }
 
     .main-footer ul li a{
